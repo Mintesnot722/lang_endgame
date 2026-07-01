@@ -1,7 +1,15 @@
 @import "tailwindcss";
 body {
-  @apply m-0 min-h-screen flex justify-center p-5;
+  @apply m-0 h-screen  p-5;
+  
   background-color: #262626;
   color: #d9d9d9;
   font-family: "Hanken Grotesk", Arial, sans-serif;
+}
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 }

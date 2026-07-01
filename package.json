@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
+    "clsx": "^2.1.1",
     "nanoid": "^5.1.16",
     "react": "^19.2.7",
+    "react-confetti": "^6.4.0",
     "react-dom": "^19.2.7",
     "tailwindcss": "^4.3.2"
   },
